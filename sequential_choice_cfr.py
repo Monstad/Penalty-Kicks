@@ -3,7 +3,7 @@ from tabulate import tabulate
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-SCENARIO_ITERATIONS = 100    # The number of iterations used to simulate expected values in each scenario.
+SCENARIO_ITERATIONS = 100000    # The number of iterations used to simulate expected values in each scenario.
 MAX_EXPLOITABILITY = 0.0001     # The program runs until it finds strategies that are exploitable for less than this.
 CONTINUE_INDEFINITELY = False   # Set this to true if you want the program to never stop solving.
 DISCOUNT_RATE = 0               # Discount rate in the CFR-algorithm.
