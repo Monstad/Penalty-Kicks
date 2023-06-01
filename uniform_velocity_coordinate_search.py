@@ -3,7 +3,7 @@ from tabulate import tabulate
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-FIRST_SCENARIO_ITERATIONS = 100                  # The number of iterations used to simulate the expected payoffs in the first step of the coordinate search.
+FIRST_SCENARIO_ITERATIONS = 100000                  # The number of iterations used to simulate the expected payoffs in the first step of the coordinate search.
 NEXT_SCENARIO_ITERATIONS = 1000000                  # The number of iterations used to simulate the expected payoffs in the subsequent steps of the coordinate search.
 FINAL_SCENARIO_ITERATIONS = 10000000                # The number of iterations used to simulate the expected payoffs in the final steps of the coordinate search.
 FIRST_MAX_COORDINATE_SEARCH_ITERATIONS = 200000     # The maximum number of iterations for the first step of the coordinate search.
